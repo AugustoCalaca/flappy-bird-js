@@ -31,7 +31,7 @@ body {
   left: calc(50% - 30px);
 }
 
-.both-barrers {
+.top-down-barriers {
   position: absolute;
   top: 0;
   height: 100%;
@@ -49,13 +49,13 @@ body {
   z-index: 1;
 }
 
-.barrer {
+.barrier {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.barrer .barrer-border {
+.barrier .barrier-border {
   height: 40px;
   width: 130px;
   background: linear-gradient(90deg, #639301, #a5e82e);
@@ -63,7 +63,7 @@ body {
   border: 2px solid #000;
 }
 
-.barrer .barrer-body {
+.barrier .barrier-body {
   height: 30px;
   width: 110px;
   background: linear-gradient(90deg, #639301, #a5e82e);
