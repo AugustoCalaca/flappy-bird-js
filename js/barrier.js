@@ -1,7 +1,6 @@
 import { newElement } from "./newElement.js";
 
 export const Barrier = function(reverse = false) {
-  console.log('callll');
   this.elem = newElement('div', 'barrier');
   const barrierBorder = newElement('div', 'barrier-border');
   const barrierBody = newElement('div', 'barrier-body');
